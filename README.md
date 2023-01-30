@@ -4,7 +4,7 @@ This package provides a plugin for the [Publish static site generator](https://g
 
 It is inspired by an older package of the [same name](https://github.com/Hejki/SassPublishPlugin), that seems to be unsupported by now.
 
-This plugin also depends on the [Swift Sass](https://github.com/johnfairh/swift-sass.git) package, which in turn uses the [Dart Sass](https://sass-lang.com/dart-sass) compiler to turn `.scss` files into `.css`. The main advantage is, that you don't need to have `libsass` installed on your mac and can use the package as-is.
+This plugin depends on the [Swift Sass](https://github.com/johnfairh/swift-sass.git) package, which in turn uses the [Dart Sass](https://sass-lang.com/dart-sass) compiler to turn `.scss` files into `.css`. The main advantage is, that you don't need to have `libsass` installed on your mac and can use the package as-is.
 
 ## Installation
 
