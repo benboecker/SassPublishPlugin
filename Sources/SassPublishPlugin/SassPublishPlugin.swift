@@ -4,6 +4,13 @@ import DartSass
 
 
 public extension Plugin {
+	/// Compiles a `.sass` file into a single `.css` file.
+	/// The returned `Plugin` value can be used in a publishing step via the `.installPlugin` function.
+	/// - Parameters:
+	///   - sassFilePath: The path of the input `.sass` file.
+	///   - cssFilePath: The path of the output `.css` file.
+	///   - compressed: If set, the oupt will be compressed on a single line.
+	/// - Returns: A *Publish* `Plugin` that can be used in a Publishing step.
 	static func compileSass(
 		sassFilePath: Path,
 		cssFilePath: Path,
